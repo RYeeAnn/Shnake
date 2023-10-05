@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #root, .container {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; // Added for absolute child positioning
+}
+
+.box {
+    position: relative; // Added so that child absolute positions are relative to this box
+    width: 75vmin;
+    height: 75vmin;
+    border: 2px solid black;
+    background-color: grey;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        border-bottom: 2px solid black;
+        background-color: silver;
+        width: 100%; // Ensure header spans the full width of the box
+    }
+}
+
+.snake-segment, .food {
+    position: absolute;
+    width: 3.75vmin; // 5% of 75vmin
+    height: 3.75vmin; // 5% of 75vmin
+    z-index: 1; // Ensure snake and food appear above the box background
+}
+
+.snake-segment {
+    background-color: green;
+}
+
+.food {
+    background-color: red;
+}
