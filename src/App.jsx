@@ -12,8 +12,8 @@ function App() {
     INPLACE: {x: 0, y: 0 }
 };
 
-const [ score, setScore ] = useState([]);
-const [ highscore, setHighScore ] = useState([]); 
+const [score, setScore] = useState([]);
+const [highscore, setHighScore] = useState([]); 
 const [snake, setSnake] = useState([{ x: 10, y: 10 }]);
 const [food, setFood] = useState({ x: 5, y: 5 });
 const [direction, setDirection] = useState('INPLACE');
