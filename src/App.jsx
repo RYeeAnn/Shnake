@@ -78,7 +78,7 @@ const moveSnake = () => {
   }
 
   // Check for collision with self or wall
-  if (head.x < 0 || head.x >= gridSize || head.y < 0 || head.y >= gridSize || snake.some(s => s.x === head.x && s.y === head.y)) {
+  if (head.x < 0 || head.x >= gridSize || head.y < 2 || head.y >= gridSize || snake.some(s => s.x === head.x && s.y === head.y)) {
     // End game
     setSnake([{ x: 10, y: 10 }]);
     setDirection('INPLACE');
@@ -116,7 +116,6 @@ return (
         <div className="box__header--score">Score: {score}</div>
         <div className="box__header--highscore">High score: {highscore}</div>
       </div>
-
       <div className="box__content">
         {snake.map((segment, index) => (
           <div 

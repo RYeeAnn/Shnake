@@ -38,6 +38,7 @@ html, body, #root, .container {
     width: 3.75vmin; // 5% of 75vmin
     height: 3.75vmin; // 5% of 75vmin
     z-index: 1; // Ensure snake and food appear above the box background
+    border-radius: 1rem;
 }
 
 .snake-segment {
