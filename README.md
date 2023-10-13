@@ -1,3 +1,3 @@
 A simple snake game inspired by classic games that was played as a kid. Created and coded using Javascript and React.js.
 
-This is a self made project I challenged my self to create with the purpose of self-learning. This is my first ever "game" that I have coded and wanted to start out with a simple game that everyone knows. This was a very fun learning process and I enjoyed every amount of effort that was put into this! :)
+This is a project I created to challenged my self with the purpose of self-learning. This is my first ever "game" that I have coded and wanted to start out with a simple game that everyone knows. This was a very fun learning process and I enjoyed every amount of effort that was put into this! :)
