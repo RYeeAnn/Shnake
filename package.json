@@ -1,6 +1,11 @@
 {
-  "name": "snake",
-  "version": "0.1.0",
+  "name": "snake-game-portfolio",
+  "version": "1.0.0",
+  "description": "A modern Snake game built with React featuring sleek graphics, smooth controls, and responsive design. Perfect for showcasing web development skills.",
+  "keywords": ["snake", "game", "react", "javascript", "html5", "css3", "arcade", "portfolio"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
